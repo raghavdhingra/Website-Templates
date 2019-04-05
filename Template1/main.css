@@ -22,3 +22,35 @@ header{
     font-weight: bold;
     align-items: center;
 }
+header div{
+    margin: 10%;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+header div:hover{
+    color: rgb(153, 152, 152);
+}
+span>span{
+    display: inline-flex;
+    text-align: center;
+}
+span>span i{
+    transition: 0.3s;
+    margin:0.2em;
+    font-size: 0.8em;
+    cursor: pointer;
+    height: 1.70em;
+    width:1.7em;
+}
+span i:hover{
+    color:rgb(153, 152, 152);
+}
+.quote{
+    font-family: 'Acme', sans-serif;
+    font-size: 3em;
+}
+.content{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+}
