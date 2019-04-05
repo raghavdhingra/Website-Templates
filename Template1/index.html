@@ -29,6 +29,68 @@
             </span>
         </center>
         </header>
+        <div class='content'>
+            <div></div>
+            <div class='quote'>
+                "Your Diet Is A Bank Account,<br>                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Good Food Choice Are Good Investments."<br>
+                <div style='display: grid;grid-template-columns: 0.7fr 1fr 2fr'>
+                        <div></div>
+                        <div>
+                            <br>
+                            <form id="appointment_form" name="appointment_form" class="mt-10" method="post" action="/leads/">
+                      
+                                <input type='hidden' name='' value='' required/>
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                      <input id="name" name="name" class="form-control required" type="text" required placeholder="Enter Name*" aria-required="true" required >
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                      <input id="number"  name="phone"  class="form-control required Phone" type="tel" pattern="[789][0-9]{9}" maxlength="10" minlength="10" placeholder="Enter Number*" aria-required="true" required>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                      <input id="email"  name="email"  class="form-control required Phone" type="email"placeholder="Enter Email" aria-required="true">
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                      <select id="place"  name="place" class="form-control required Phone">
+                                          <option name='select_location'>--- Select Location ---</option>
+                                          <option name='Delhi'>Delhi</option>
+                                          <option name='Haryana'>Haryana</option>
+                                          <option name='Uttar'>Uttar Pradesh</option>
+                                          <option name='Punjab'>Punjab</option>
+                                          <option name='Rajasthan'>Rajasthan</option>
+                                          <option name='Gujarat'>Gujarat</option>
+                                          <option name="other">Other (specify)</option>
+                                      </select>
+                          
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                      <textarea class="form-control required" name="msg" placeholder="Message" id=""></textarea>
+                                    </div>
+                                  </div>
+                                    <div class="col-sm-12">
+                                <div class="form-group mb-10 ">
+                                  <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                  <!-------Event listener on "Get Fit Now" Button is in dietclinic_main.js-->
+                                  <button type="submit" class="btn btn-dark btn-theme-colored" data-toggle="modal" data-loading-text="Please wait..." onclick='thanks_popup();'>Get Fit Now</button>
+                                </div>
+                              </div>
+                              </div>
+                              </form>
+                        </div>
+                        <div></div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
